@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FDC99124272A5F00243614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC99024272A5F00243614 /* AppDelegate.swift */; };
+		18FDC99324272A5F00243614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC99224272A5F00243614 /* SceneDelegate.swift */; };
+		18FDC99524272A5F00243614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC99424272A5F00243614 /* ViewController.swift */; };
+		18FDC99824272A5F00243614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC99624272A5F00243614 /* Main.storyboard */; };
+		18FDC99A24272A6800243614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC99924272A6800243614 /* Assets.xcassets */; };
+		18FDC99D24272A6800243614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC99B24272A6800243614 /* LaunchScreen.storyboard */; };
+		18FDC9A824272A6900243614 /* AgeCalculateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC9A724272A6900243614 /* AgeCalculateTests.swift */; };
+		18FDC9B324272A6900243614 /* AgeCalculateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC9B224272A6900243614 /* AgeCalculateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FDC9A424272A6900243614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDC98524272A5F00243614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDC98C24272A5F00243614;
+			remoteInfo = AgeCalculate;
+		};
+		18FDC9AF24272A6900243614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDC98524272A5F00243614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDC98C24272A5F00243614;
+			remoteInfo = AgeCalculate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FDC98D24272A5F00243614 /* AgeCalculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeCalculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC99024272A5F00243614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FDC99224272A5F00243614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18FDC99424272A5F00243614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FDC99724272A5F00243614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FDC99924272A6800243614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FDC99C24272A6800243614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FDC99E24272A6800243614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDC9A324272A6900243614 /* AgeCalculateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeCalculateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC9A724272A6900243614 /* AgeCalculateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalculateTests.swift; sourceTree = "<group>"; };
+		18FDC9A924272A6900243614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDC9AE24272A6900243614 /* AgeCalculateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeCalculateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC9B224272A6900243614 /* AgeCalculateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalculateUITests.swift; sourceTree = "<group>"; };
+		18FDC9B424272A6900243614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FDC98A24272A5F00243614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC9A024272A6900243614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC9AB24272A6900243614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FDC98424272A5F00243614 = {
+			isa = PBXGroup;
+			children = (
+				18FDC98F24272A5F00243614 /* AgeCalculate */,
+				18FDC9A624272A6900243614 /* AgeCalculateTests */,
+				18FDC9B124272A6900243614 /* AgeCalculateUITests */,
+				18FDC98E24272A5F00243614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FDC98E24272A5F00243614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC98D24272A5F00243614 /* AgeCalculate.app */,
+				18FDC9A324272A6900243614 /* AgeCalculateTests.xctest */,
+				18FDC9AE24272A6900243614 /* AgeCalculateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FDC98F24272A5F00243614 /* AgeCalculate */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC99024272A5F00243614 /* AppDelegate.swift */,
+				18FDC99224272A5F00243614 /* SceneDelegate.swift */,
+				18FDC99424272A5F00243614 /* ViewController.swift */,
+				18FDC99624272A5F00243614 /* Main.storyboard */,
+				18FDC99924272A6800243614 /* Assets.xcassets */,
+				18FDC99B24272A6800243614 /* LaunchScreen.storyboard */,
+				18FDC99E24272A6800243614 /* Info.plist */,
+			);
+			path = AgeCalculate;
+			sourceTree = "<group>";
+		};
+		18FDC9A624272A6900243614 /* AgeCalculateTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC9A724272A6900243614 /* AgeCalculateTests.swift */,
+				18FDC9A924272A6900243614 /* Info.plist */,
+			);
+			path = AgeCalculateTests;
+			sourceTree = "<group>";
+		};
+		18FDC9B124272A6900243614 /* AgeCalculateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC9B224272A6900243614 /* AgeCalculateUITests.swift */,
+				18FDC9B424272A6900243614 /* Info.plist */,
+			);
+			path = AgeCalculateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FDC98C24272A5F00243614 /* AgeCalculate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC9B724272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculate" */;
+			buildPhases = (
+				18FDC98924272A5F00243614 /* Sources */,
+				18FDC98A24272A5F00243614 /* Frameworks */,
+				18FDC98B24272A5F00243614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeCalculate;
+			productName = AgeCalculate;
+			productReference = 18FDC98D24272A5F00243614 /* AgeCalculate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FDC9A224272A6900243614 /* AgeCalculateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC9BA24272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculateTests" */;
+			buildPhases = (
+				18FDC99F24272A6900243614 /* Sources */,
+				18FDC9A024272A6900243614 /* Frameworks */,
+				18FDC9A124272A6900243614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDC9A524272A6900243614 /* PBXTargetDependency */,
+			);
+			name = AgeCalculateTests;
+			productName = AgeCalculateTests;
+			productReference = 18FDC9A324272A6900243614 /* AgeCalculateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FDC9AD24272A6900243614 /* AgeCalculateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC9BD24272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculateUITests" */;
+			buildPhases = (
+				18FDC9AA24272A6900243614 /* Sources */,
+				18FDC9AB24272A6900243614 /* Frameworks */,
+				18FDC9AC24272A6900243614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDC9B024272A6900243614 /* PBXTargetDependency */,
+			);
+			name = AgeCalculateUITests;
+			productName = AgeCalculateUITests;
+			productReference = 18FDC9AE24272A6900243614 /* AgeCalculateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FDC98524272A5F00243614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18FDC98C24272A5F00243614 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18FDC9A224272A6900243614 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18FDC98C24272A5F00243614;
+					};
+					18FDC9AD24272A6900243614 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18FDC98C24272A5F00243614;
+					};
+				};
+			};
+			buildConfigurationList = 18FDC98824272A5F00243614 /* Build configuration list for PBXProject "AgeCalculate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FDC98424272A5F00243614;
+			productRefGroup = 18FDC98E24272A5F00243614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FDC98C24272A5F00243614 /* AgeCalculate */,
+				18FDC9A224272A6900243614 /* AgeCalculateTests */,
+				18FDC9AD24272A6900243614 /* AgeCalculateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FDC98B24272A5F00243614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC99D24272A6800243614 /* LaunchScreen.storyboard in Resources */,
+				18FDC99A24272A6800243614 /* Assets.xcassets in Resources */,
+				18FDC99824272A5F00243614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC9A124272A6900243614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC9AC24272A6900243614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FDC98924272A5F00243614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC99524272A5F00243614 /* ViewController.swift in Sources */,
+				18FDC99124272A5F00243614 /* AppDelegate.swift in Sources */,
+				18FDC99324272A5F00243614 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC99F24272A6900243614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC9A824272A6900243614 /* AgeCalculateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC9AA24272A6900243614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC9B324272A6900243614 /* AgeCalculateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FDC9A524272A6900243614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDC98C24272A5F00243614 /* AgeCalculate */;
+			targetProxy = 18FDC9A424272A6900243614 /* PBXContainerItemProxy */;
+		};
+		18FDC9B024272A6900243614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDC98C24272A5F00243614 /* AgeCalculate */;
+			targetProxy = 18FDC9AF24272A6900243614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FDC99624272A5F00243614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDC99724272A5F00243614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FDC99B24272A6800243614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDC99C24272A6800243614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FDC9B524272A6900243614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FDC9B624272A6900243614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FDC9B824272A6900243614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FDC9B924272A6900243614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FDC9BB24272A6900243614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeCalculate.app/AgeCalculate";
+			};
+			name = Debug;
+		};
+		18FDC9BC24272A6900243614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeCalculate.app/AgeCalculate";
+			};
+			name = Release;
+		};
+		18FDC9BE24272A6900243614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeCalculate;
+			};
+			name = Debug;
+		};
+		18FDC9BF24272A6900243614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgeCalculateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biti.AgeCalculateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeCalculate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FDC98824272A5F00243614 /* Build configuration list for PBXProject "AgeCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC9B524272A6900243614 /* Debug */,
+				18FDC9B624272A6900243614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDC9B724272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC9B824272A6900243614 /* Debug */,
+				18FDC9B924272A6900243614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDC9BA24272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC9BB24272A6900243614 /* Debug */,
+				18FDC9BC24272A6900243614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDC9BD24272A6900243614 /* Build configuration list for PBXNativeTarget "AgeCalculateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC9BE24272A6900243614 /* Debug */,
+				18FDC9BF24272A6900243614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FDC98524272A5F00243614 /* Project object */;
+}
